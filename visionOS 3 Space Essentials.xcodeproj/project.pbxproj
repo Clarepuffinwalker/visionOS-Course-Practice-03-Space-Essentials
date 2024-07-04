@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB4535AA2C3698C200717AE6 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = EB4535A92C3698C200717AE6 /* RealityKitContent */; };
+		EB4535AC2C3698C200717AE6 /* visionOS_3_Space_EssentialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4535AB2C3698C200717AE6 /* visionOS_3_Space_EssentialsApp.swift */; };
+		EB4535AE2C3698C200717AE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4535AD2C3698C200717AE6 /* ContentView.swift */; };
+		EB4535B22C3698C400717AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4535B12C3698C400717AE6 /* Assets.xcassets */; };
+		EB4535B52C3698C400717AE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4535B42C3698C400717AE6 /* Preview Assets.xcassets */; };
+		EB4535BF2C369D2000717AE6 /* RotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4535BE2C369D2000717AE6 /* RotationView.swift */; };
+		EB4535C12C369D3800717AE6 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4535C02C369D3800717AE6 /* DragView.swift */; };
+		EB4535C32C369D4A00717AE6 /* HoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4535C22C369D4A00717AE6 /* HoverView.swift */; };
+		EB7CBFA82C392D8000BDCA15 /* toy_drummer_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = EB7CBFA72C392D8000BDCA15 /* toy_drummer_idle.usdz */; };
+		EB7CBFAA2C39380100BDCA15 /* InterpolateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7CBFA92C39380100BDCA15 /* InterpolateView.swift */; };
+		EB7CBFAC2C394D5B00BDCA15 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7CBFAB2C394D5B00BDCA15 /* AnimationView.swift */; };
+		EB7CBFAE2C39568C00BDCA15 /* MovementComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7CBFAD2C39568C00BDCA15 /* MovementComponent.swift */; };
+		EB7CBFB02C39569D00BDCA15 /* MovementSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7CBFAF2C39569D00BDCA15 /* MovementSystem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB4535A42C3698C200717AE6 /* visionOS 3 Space Essentials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "visionOS 3 Space Essentials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4535A82C3698C200717AE6 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		EB4535AB2C3698C200717AE6 /* visionOS_3_Space_EssentialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visionOS_3_Space_EssentialsApp.swift; sourceTree = "<group>"; };
+		EB4535AD2C3698C200717AE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB4535B12C3698C400717AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB4535B42C3698C400717AE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB4535B62C3698C400717AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4535BE2C369D2000717AE6 /* RotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationView.swift; sourceTree = "<group>"; };
+		EB4535C02C369D3800717AE6 /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		EB4535C22C369D4A00717AE6 /* HoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverView.swift; sourceTree = "<group>"; };
+		EB7CBFA72C392D8000BDCA15 /* toy_drummer_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer_idle.usdz; sourceTree = "<group>"; };
+		EB7CBFA92C39380100BDCA15 /* InterpolateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolateView.swift; sourceTree = "<group>"; };
+		EB7CBFAB2C394D5B00BDCA15 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		EB7CBFAD2C39568C00BDCA15 /* MovementComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementComponent.swift; sourceTree = "<group>"; };
+		EB7CBFAF2C39569D00BDCA15 /* MovementSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementSystem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4535A12C3698C200717AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4535AA2C3698C200717AE6 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB2031052C396675002F4514 /* ECS Movement & View */ = {
+			isa = PBXGroup;
+			children = (
+				EB7CBFAB2C394D5B00BDCA15 /* AnimationView.swift */,
+				EB7CBFAD2C39568C00BDCA15 /* MovementComponent.swift */,
+				EB7CBFAF2C39569D00BDCA15 /* MovementSystem.swift */,
+			);
+			path = "ECS Movement & View";
+			sourceTree = "<group>";
+		};
+		EB45359B2C3698C200717AE6 = {
+			isa = PBXGroup;
+			children = (
+				EB4535A62C3698C200717AE6 /* visionOS 3 Space Essentials */,
+				EB4535A72C3698C200717AE6 /* Packages */,
+				EB4535A52C3698C200717AE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4535A52C3698C200717AE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4535A42C3698C200717AE6 /* visionOS 3 Space Essentials.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4535A62C3698C200717AE6 /* visionOS 3 Space Essentials */ = {
+			isa = PBXGroup;
+			children = (
+				EB4535AB2C3698C200717AE6 /* visionOS_3_Space_EssentialsApp.swift */,
+				EB4535AD2C3698C200717AE6 /* ContentView.swift */,
+				EB7CBFA92C39380100BDCA15 /* InterpolateView.swift */,
+				EB4535BE2C369D2000717AE6 /* RotationView.swift */,
+				EB4535C02C369D3800717AE6 /* DragView.swift */,
+				EB4535C22C369D4A00717AE6 /* HoverView.swift */,
+				EB2031052C396675002F4514 /* ECS Movement & View */,
+				EB7CBFA72C392D8000BDCA15 /* toy_drummer_idle.usdz */,
+				EB4535B12C3698C400717AE6 /* Assets.xcassets */,
+				EB4535B62C3698C400717AE6 /* Info.plist */,
+				EB4535B32C3698C400717AE6 /* Preview Content */,
+			);
+			path = "visionOS 3 Space Essentials";
+			sourceTree = "<group>";
+		};
+		EB4535A72C3698C200717AE6 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				EB4535A82C3698C200717AE6 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		EB4535B32C3698C400717AE6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB4535B42C3698C400717AE6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4535A32C3698C200717AE6 /* visionOS 3 Space Essentials */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4535B92C3698C400717AE6 /* Build configuration list for PBXNativeTarget "visionOS 3 Space Essentials" */;
+			buildPhases = (
+				EB4535A02C3698C200717AE6 /* Sources */,
+				EB4535A12C3698C200717AE6 /* Frameworks */,
+				EB4535A22C3698C200717AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "visionOS 3 Space Essentials";
+			packageProductDependencies = (
+				EB4535A92C3698C200717AE6 /* RealityKitContent */,
+			);
+			productName = "visionOS 3 Space Essentials";
+			productReference = EB4535A42C3698C200717AE6 /* visionOS 3 Space Essentials.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB45359C2C3698C200717AE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EB4535A32C3698C200717AE6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EB45359F2C3698C200717AE6 /* Build configuration list for PBXProject "visionOS 3 Space Essentials" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB45359B2C3698C200717AE6;
+			productRefGroup = EB4535A52C3698C200717AE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4535A32C3698C200717AE6 /* visionOS 3 Space Essentials */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4535A22C3698C200717AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7CBFA82C392D8000BDCA15 /* toy_drummer_idle.usdz in Resources */,
+				EB4535B52C3698C400717AE6 /* Preview Assets.xcassets in Resources */,
+				EB4535B22C3698C400717AE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4535A02C3698C200717AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7CBFAE2C39568C00BDCA15 /* MovementComponent.swift in Sources */,
+				EB4535AE2C3698C200717AE6 /* ContentView.swift in Sources */,
+				EB4535AC2C3698C200717AE6 /* visionOS_3_Space_EssentialsApp.swift in Sources */,
+				EB4535C32C369D4A00717AE6 /* HoverView.swift in Sources */,
+				EB4535C12C369D3800717AE6 /* DragView.swift in Sources */,
+				EB7CBFB02C39569D00BDCA15 /* MovementSystem.swift in Sources */,
+				EB7CBFAC2C394D5B00BDCA15 /* AnimationView.swift in Sources */,
+				EB7CBFAA2C39380100BDCA15 /* InterpolateView.swift in Sources */,
+				EB4535BF2C369D2000717AE6 /* RotationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB4535B72C3698C400717AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Debug;
+		};
+		EB4535B82C3698C400717AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.2;
+			};
+			name = Release;
+		};
+		EB4535BA2C3698C400717AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"visionOS 3 Space Essentials/Preview Content\"";
+				DEVELOPMENT_TEAM = U6J89WKGHB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clarezhou.visionOS-3-Space-Essentials";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		EB4535BB2C3698C400717AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"visionOS 3 Space Essentials/Preview Content\"";
+				DEVELOPMENT_TEAM = U6J89WKGHB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clarezhou.visionOS-3-Space-Essentials";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB45359F2C3698C200717AE6 /* Build configuration list for PBXProject "visionOS 3 Space Essentials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4535B72C3698C400717AE6 /* Debug */,
+				EB4535B82C3698C400717AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4535B92C3698C400717AE6 /* Build configuration list for PBXNativeTarget "visionOS 3 Space Essentials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4535BA2C3698C400717AE6 /* Debug */,
+				EB4535BB2C3698C400717AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB4535A92C3698C200717AE6 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EB45359C2C3698C200717AE6 /* Project object */;
+}
